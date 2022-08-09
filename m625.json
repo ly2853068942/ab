@@ -454,6 +454,7 @@
 {"name":"Json轮询","type":2,"url":"Sequence"},
 # type1 聚合.并发.轮询
 {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
+{"name":"解析OKjx综合","type":0,"url":"https://okjx.cc/?url="},
 {"name": "随便1","type": 1,"url": "http://cl.yjhan.com:8090/home/api?type=ys&uid=821518&key=aghlmnyBFIJMPRX489&url="},
 {"name": "随便2","type": 1,"url": "https://www.nfjx.xyz/home/api?type=ys&uid=5767995&key=ijkmovxDEHIJPQRW69&url="},
 {"name":"秒播","type":1,"url":"https://app.okmedcos.com/4k/?url="},
