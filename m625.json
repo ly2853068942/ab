@@ -465,6 +465,8 @@
 {"name":"全网视频解析","type":0,"url": "https://vip.laobandq.com/jiexi.php?url="},
 {"name":"夜幕解析","type":0,"url":"https://www.yemu.xyz/?url="},
 {"name":"铭人解析","type":0,"url":"https://parse.123mingren.com/?url="},
+{"name":"yemu","type":0,"url":"https://www.yemu.xyz/?url="},
+{"name":"gai","type":0,"url":"https://www.gai4.com/?url="},
 {"name": "随便1","type": 1,"url": "http://cl.yjhan.com:8090/home/api?type=ys&uid=821518&key=aghlmnyBFIJMPRX489&url="},
 {"name": "随便2","type": 1,"url": "https://www.nfjx.xyz/home/api?type=ys&uid=5767995&key=ijkmovxDEHIJPQRW69&url="},
 {"name":"秒播","type":1,"url":"https://app.okmedcos.com/4k/?url="},
