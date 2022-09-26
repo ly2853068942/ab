@@ -23,7 +23,6 @@
 {"key":"csp_Auete"         ,"name":"🐞Auete","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Cokemv"        ,"name":"🐞Cokemv","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"在线之家","name":"🐞在线之家","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1},
-{"key": "精工厂","name": "精工厂","type": 0, "api": "https://jgczyapi.com/home/cjapi/kld2/mc/vod/xml", "searchable": 1, "quickSearch": 1,"filterable": 0 },
     {
       "key": "91md",
       "name": "91",
