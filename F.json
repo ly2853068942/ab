@@ -1,25 +1,79 @@
-﻿{
-  "spider": "https://raw.githubusercontents.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;f56657fee19cd217607a458809c350b4",
+36 lines (136 sloc)  2.93 KB
+
+{
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;386bb130dd0ff7c26addc113ce7e5434",
   "sites": [
-    {
-      "key": "哔哩",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontents.com/FongMi/CatVodSpider/main/json/bili.json"
-    },
     {
       "key": "AList",
       "name": "AList",
       "type": 3,
       "api": "csp_AList",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontents.com/FongMi/CatVodSpider/main/json/alist.json"
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+    },
+    {
+      "key": "哔哩",
+      "name": "哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json"
+    },
+    {
+      "key": "泥巴",
+      "name": "泥巴",
+      "type": 3,
+      "api": "csp_Nbys",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "快播",
+      "name": "快播",
+      "type": 1,
+      "api": "https://www.kuaibozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "categories": [
+        "动漫",
+        "国产剧",
+        "日韩剧",
+        "港台剧",
+        "欧美剧",
+        "泰剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "综艺"
+      ]
+    },
+    {
+      "key": "百度",
+      "name": "百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 0,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "大陆剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
     },
     {
       "key": "櫻花",
@@ -27,7 +81,6 @@
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -36,7 +89,6 @@
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -45,7 +97,6 @@
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -54,8 +105,6 @@
       "type": 3,
       "api": "csp_Paper",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "ext": "3865f0ab8f124688ad786a262af9b940"
     },
     {
@@ -64,7 +113,6 @@
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 0,
       "ext": "3865f0ab8f124688ad786a262af9b940"
     },
@@ -74,7 +122,6 @@
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 0,
       "ext": "3865f0ab8f124688ad786a262af9b940"
     },
@@ -84,7 +131,6 @@
       "type": 3,
       "api": "csp_Push",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 0,
       "ext": "3865f0ab8f124688ad786a262af9b940"
     }
